@@ -1,1 +1,0 @@
-import{_ as t,c as e,o,a as s}from"./entry.j6AjJeHd.js";const c={},n={class:"text-center mt-36 font-bold text-2xl"},_=s("button",{class:"btn bg-customblue text-white"},"Sign in",-1),a=[_];function r(i,d){return o(),e("div",n,a)}const x=t(c,[["render",r]]);export{x as default};

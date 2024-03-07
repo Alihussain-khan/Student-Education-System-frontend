@@ -1,1 +1,0 @@
-{"version":3,"file":"index-D9-EsJvj.js","sources":["../../../../pages/index.vue"],"sourcesContent":["<template>\r\n  <div class=\"text-center mt-36 font-bold text-2xl\">\r\n    <button class=\"btn bg-customblue text-white\">Sign in</button>\r\n  </div>\r\n</template>\r\n\r\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,SAAA,eAAA,MAAA,OAAA,SACY;;;;;;;;;;"}

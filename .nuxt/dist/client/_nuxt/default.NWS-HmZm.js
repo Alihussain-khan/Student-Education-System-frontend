@@ -1,1 +1,0 @@
-import{_ as s,c as a,W as o,F as c,a as e,o as n}from"./entry.j6AjJeHd.js";const r={},l=e("div",{class:"text-center"},[e("h1",null,"This is the default layout")],-1);function _(t,d){return n(),a(c,null,[l,o(t.$slots,"default")],64)}const u=s(r,[["render",_]]);export{u as default};
