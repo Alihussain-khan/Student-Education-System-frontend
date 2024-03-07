@@ -1,0 +1,21 @@
+# Using the base image of Node JS version 18
+FROM node:18
+
+# Current Working Directory that is the /app directory in the docker container file system
+WORKDIR /app
+
+# Copying the package.json and package-lock.json into the /app directory of the container file system
+COPY package*.json ./
+
+RUN npm install
+
+# Copying the application code (including the built files) to the /app directory of the container file system
+COPY . .
+
+# Building the Nuxt JS app
+RUN npm run build
+
+EXPOSE 4000
+
+# CMD command for running the app in the production environment
+CMD ["npm","start"]

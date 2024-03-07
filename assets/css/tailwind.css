@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-customgreen px-2 py-1 rounded text-white;
+  }
+  .btnHover {
+    @apply bg-white text-customgreen border-2 border-customgreen;
+  }
+  .mcqcard {
+    @apply p-10 rounded-md bg-lightcustomgreen  shadow-md h-full;
+  }
+  .card {
+    @apply p-10 rounded-md bg-white h-full;
+  }
+}

@@ -1,0 +1,17 @@
+# Using the base image of Node JS version 18
+FROM node:18
+
+# Current Workiung Direcotry that is the /app direcotry in the docker container file system
+WORKDIR /app
+
+# Copying the package.json and package-lock.json into the /app directory of the container file system 
+COPY package*.json ./
+
+RUN npm install 
+
+COPY . .
+
+EXPOSE 3000
+
+# CMD command for running the app in the development environment
+CMD ["npm","run","dev"]
